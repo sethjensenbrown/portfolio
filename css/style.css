@@ -110,7 +110,7 @@ text-align: right;
 a {
   color: #2DAFFF;
 }
-a:hover,a.pg-state-hover{ 
+a:hover, a:focus{ 
   color: #3382B2;
 }
 nav > a {
