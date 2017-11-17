@@ -4,72 +4,134 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>New page</title>
+        <meta name="description" content="Wed Developer Portfolio for Seth Jensen Brown">
+        <meta name="author" content="Seth Jensen Brown">
+        <title>Seth Jensen Brown</title>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:500,600,700,800|Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:500,600,700,800|Raleway:400,500,600" rel="stylesheet">
     </head>
-    <body>
+    <body class="container-fluid">
         <nav>
             <a href="#about-me"><p> About |</p></a>
             <a href="#pitted"><p> Projects </p></a>
             <a href="#contact"><p>| Contact </p></a>
         </nav>
         <main>
-            <header></header>
-            <section id="hero">
+            <section id="hero" class="row">
                 <div id="hero-title-container">
                     <h1>What's up! My name is Seth Jensen Brown and I'm a full stack web developer.</h1> 
                 </div>
                 <!--wave background image -->
             </section>
-            <section id="about-me">
-                <h4>About Me</h4>
-                <br />
-                <p>&nbsp&nbsp&nbsp&nbsp I am a problem solver by nature. In high school and college that got me interested in Physics and Math, but I wasn't interested in staying in Academia, so I got my degree and graduated to programming. I have always been thrilled by the completion of a tough challenge, and the added bonus of creating something useful is what makes programming so much fun for me.</p>
-                <br />
-                <p>&nbsp&nbsp&nbsp&nbsp I love the beach and the ocean, so I go surfing as much as possible, even if it means waking up before the sun to beat morning traffic. I also enjoy any other activity that involves a board or a thrill, I haven't tried them all yet, but I'm working on it!</p>
-                <br />
-                <img src="tinified/Headshot.png" id="headshot" />
-                <!--Headshot-->
+            <section id="about-me" class="row">
+                <div class="col-sm-6">
+                    <br />
+                    <hr />
+                    <br />
+                    <h2>About Me</h2>
+                    <br />
+                    <p>&nbsp&nbsp&nbsp&nbsp I am a problem solver by nature. In high school and college that got me interested in Physics and Math, but I wasn't interested in staying in Academia, so I got my degree and graduated to programming. I have always been thrilled by the completion of a tough challenge, and the added bonus of creating something useful is what makes programming so much fun for me.</p>
+                    <br />
+                    <p>&nbsp&nbsp&nbsp&nbsp I love the beach and the ocean, so I go surfing as much as possible, even if it means waking up before the sun to beat morning traffic. I also enjoy any other activity that involves a board or a thrill, I haven't tried them all yet, but I'm working on it!</p>
+                    <br />
+                </div>
+                <div class="col-sm-6">
+                    <img src="tinified/Headshot.png" id="headshot" />
+                </div>
             </section>
-            <section id="pitted">
-                <h4>Pitted</h4>
-                <p>Pitted is a site I designed and built for one of my surfer buddies who happens to be stuck in Arizona, hundreds of miles from the ocean. He has built a community of people like him, who love to surf but live far from the beach. This site helps them share the locations of their surf spots, whether that be on a river, behind a boat, or in a pool. </p>
-                <img src="tinified/PittedScreenshot.png" id="pitted-screenshot" />
-                <p>HTML5, CSS3, JavaScript, jQuery, Node.js, Express, MongoDB, Mongoose</p>
-                <a href="https://damp-garden-35226.herokuapp.com/">Live</a>
-                <a href="https://github.com/sethjensenbrown/pitted">Repo</a>
+            <section id="pitted" class="row">
+                <div class="col-md-12">
+                    <br />
+                    <hr />
+                    <br />
+                    <h2>My Projects</h2>
+                    <br />
+                </div>
+                <div class="col-sm-6">
+                    <h4>Pitted</h4>
+                    <br />
+                    <p>&nbsp&nbsp&nbsp&nbsp Pitted is a site I designed and built for one of my surfer buddies who happens to be stuck in Arizona, hundreds of miles from the ocean. He has built a community of people like him, who love to surf but live far from the beach. This site helps them share the locations of their surf spots, whether that be on a river, behind a boat, or in a pool. </p>
+                    <br />
+                    <p><strong>I used: </strong>HTML5, CSS3, JavaScript, jQuery, Node.js, Express, MongoDB, Mongoose, and more</p>
+                    <br />
+                    <div class="project-links">
+                        <a href="https://damp-garden-35226.herokuapp.com/">Live</a>
+                        <span>&nbsp&nbsp&nbsp&nbsp</span>
+                        <a href="https://github.com/sethjensenbrown/pitted">Repo</a>
+                    </div>
+                    <br />
+                </div>
+                <div class="col-sm-6">
+                    <img src="tinified/PittedScreenshot.png" id="pitted-screenshot" />
+                </div>
             </section>
-            <section id="surflist">
-                <h4>SurfList</h4>
-                <p>Surflist is a place for people to buy and sell surfboards. The idea came about as a result of my frustration sorting through all of the junk that comes up when searching for something on Craigslist. This site is only for surfboards, so it's much easier to find what you want! And just like Craigslist, you don't need an account to sell something, just an email address!</p>
-                <img src="tinified/SurfListScreenshot.png" id="surflist-screenshot" />
-                <p>HTML5, CSS3, JavaScript, React, Node.js, Express, MongoDB, Mongoose</p>
-                <a href="https://surflist-client.netlify.com">Live</a>
-                <a href="https://github.com/sethjensenbrown/surflist-client">Repo</a>
+            <section id="surflist" class="row">
+                <div class="col-sm-6">
+                    <h4>SurfList</h4>
+                    <br />
+                    <p>&nbsp&nbsp&nbsp&nbsp Surflist is a place for people to buy and sell surfboards. The idea came about as a result of my frustration sorting through all of the junk that comes up when searching for something on Craigslist. This site is only for surfboards, so it's much easier to find what you want! And just like Craigslist, you don't need an account to sell something, just an email address!</p>
+                    <br />
+                    <p><strong>I used: </strong>HTML5, CSS3, JavaScript, React, Node.js, Express, MongoDB, Mongoose, and more</p>
+                    <br />
+                    <div class="project-links">
+                        <a href="https://surflist-client.netlify.com">Live</a>
+                        <span>&nbsp&nbsp&nbsp&nbsp</span>
+                        <a href="https://github.com/sethjensenbrown/surflist-client">Repo</a>
+                    </div>
+                    <br />
+                </div>
+                <div class="col-sm-6">
+                    <img src="tinified/SurfListScreenshot.png" id="surflist-screenshot" />
+                </div>
             </section>
-            <section id="sessions">
-                <h4>Sessions</h4>
-                <p>Sessions is a fun little app that combines info from several different sources to tell you where to grab a beer after you surf! You give it a surf spot, and it returns a map of nearby breweries, as well as a basic wave height surf forecast.</p>
-                <img src="tinified/SessionsScreenshot.png" id="sessions-screenshot" />
-                <p>HTML5, CSS3, JavaScript, jQuery</p>
-                <a href="https://surflist-client.netlify.com">Live</a>
-                <a href="https://github.com/sethjensenbrown/surflist-client">Repo</a>
+            <section id="sessions" class="row">
+                <div class="col-sm-6">
+                    <h4>Sessions</h4>
+                    <br />
+                    <p>&nbsp&nbsp&nbsp&nbsp Sessions is a fun little app that combines info from several different sources to tell you where to grab a beer after you surf! You give it a surf spot, and it returns a map of nearby breweries, as well as a basic wave height surf forecast.</p>
+                    <br />
+                    <p><strong>I used: </strong>HTML5, CSS3, JavaScript, jQuery, and more</p>
+                    <br />
+                    <div class="project-links">
+                        <a href="https://surflist-client.netlify.com">Live</a>
+                        <span>&nbsp&nbsp&nbsp&nbsp</span>
+                        <a href="https://github.com/sethjensenbrown/surflist-client">Repo</a>
+                    </div>
+                    <br />
+                </div>
+                <div class="col-sm-6">
+                    <img src="tinified/SessionsScreenshot.png" id="sessions-screenshot" />
+                </div>
             </section>
-            <section id="contact">
-                <h4>contact info</h4>
-                <p><a href="mailto:sethjensenbrown@gmail.com">sethjensenbrown@gmail.com</a></p>
-                <a href="https://github.com/sethjensenbrown">
-                    <img src="tinified/github.png" id="github-icon" class="icon" />
-                </a>
-                <a href="https://www.linkedin.com/in/sethjensenbrown/">
-                    <img src="tinified/linkedin.png" id="linkedin-icon" class="icon" />
-                </a>
-                <a href="https://angel.co/seth-jensen-brown">
-                    <img src="tinified/AngelList.png" id="angellist-icon" class="icon" />
-                </a>
+            <section id="contact" class="row">
+                <div id="contact-text-container" class="col-md-12">
+                    <br />
+                    <h2>Contact Info</h2>
+                    <br />
+                    <h4>Have questions?</h4>
+                    <br />
+                    <h4>Want to find out more?</h4>
+                    <br />
+                    <h4>Feel free to reach out by email: </h4>
+                    <br />
+                    <div id="email-container">
+                        <h4><a id="email" href="mailto:sethjensenbrown@gmail.com">sethjensenbrown@gmail.com</a></h4>
+                    </div>
+                    <br />
+                    <h4>Or find me here: </h4>
+                    <br />
+                    <a href="https://github.com/sethjensenbrown">
+                        <img src="tinified/github.png" id="github-icon" class="icon" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/sethjensenbrown/">
+                        <img src="tinified/linkedin.png" id="linkedin-icon" class="icon" />
+                    </a>
+                    <a href="https://angel.co/seth-jensen-brown">
+                        <img src="tinified/AngelList.png" id="angellist-icon" class="icon" />
+                    </a>
+                </div>
             </section>
         </main>
     </body>

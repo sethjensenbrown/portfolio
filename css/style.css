@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 margin: 0;
+padding: 0;
 font-family: 'Raleway', sans-serif;
 }
 nav {
@@ -9,28 +10,56 @@ height: 40px;
 background-color: #ffffff;
 top: 0;
 position: fixed;
-border-bottom: 2px solid #888989
+border-bottom: 2px solid #888989;
+z-index: 2
 }
 main {
+  margin: 0;
+  padding: 0;
   margin-top: 40px;
+
 }
 section {
   width: 100%;
-font-size: 16px
+font-size: 16px;
+padding-top: 30px;
+margin-left: 0;
+padding-left: 0;
+padding-right: 0;
+margin-right: 0
 }
 img {
-  width:100%;
-margin-top: 5px;
-margin-bottom: 5px
+  width: 100%;
+max-width: 450px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}h1, h2, h3, h4, h5 {
+  font-family: 'Open Sans', sans-serif
 }
-h1, h2, h3, h4, h5 {
-  font-family: 'Open Sans', sans-serif;
+strong{
+  font-weight: 600;
+}
+.container-fluid {
+     padding-right: 0; /*15px in bootstrap.css*/
+     padding-left: 0;  /*idem*/
+     margin-right: auto;
+     margin-left: auto;
 }
 #pitted {
-  background: #E0F7FC;
+  padding-left: 10px;
+padding-right: 10px;
+margin-top: 10px;
 }
 #surflist {
-  background: #5EE1FF;
+  padding-left: 10px;
+padding-right: 10px;
+margin-top: 10px;
+}
+#sessions {
+  padding-left: 10px;
+padding-right: 10px;
+margin-top: 10px;
 }
 #about-me {
   padding-left: 10px;
@@ -56,7 +85,7 @@ background-repeat: no-repeat;
 background-position: right top;
 background-attachment: scroll;
 background-size: cover;
-padding-left: 10px;
+padding-right: 10px;
 margin-right: 10px;
 display: flex;
 justify-content: flex-end;
@@ -75,7 +104,14 @@ height: 600px;
   font-weight: 800;
 font-size: 47px;
 color: #ffffff;
-line-height: 85px;
+line-height: 77px;
+text-align: right;
+}
+a {
+  color: #2DAFFF;
+}
+a:hover,a.pg-state-hover{ 
+  color: #3382B2;
 }
 nav > a {
   color: #888989;
@@ -86,7 +122,39 @@ display: inline-block;
 margin-top: 7px;
 margin-left: 6px;
 }
-#about-me > img {
-width: 100%;
-max-width: 450px;
+.project-links {
+  text-align: center;
+}
+#pitted > h2 {
+  margin-top: 5px;
+}
+#contact {
+  height: 700px;
+padding-left: 10px;
+padding-right: 10px;
+text-align: left;
+line-height: 30px;
+font-size: 27px;
+background-image: url('../tinified/Wave3.png');
+background-position: left top;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: scroll;
+color: #ffffff;
+margin-top: 50px;
+padding-top: 0;
+}
+.icon {
+  display: inline-block;
+}
+#contact-text-container {
+  width: 300px;
+height: 700px;
+}
+#email {
+  color: #aaaeae;
+font-size: 21px;
+}
+#surflist-screenshot {
+  border: 1px solid #888989;
 }
