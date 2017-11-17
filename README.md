@@ -9,4 +9,4 @@ Photo Credit for headshot: Jess Gabor
 
 Photo Credit for wave images:  Jeremy Bishop
 
-[alt text](https://unsplash.com/@tidesinourveins)
+(https://unsplash.com/@tidesinourveins)
